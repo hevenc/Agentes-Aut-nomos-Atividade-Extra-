@@ -1,8 +1,8 @@
-DataPilot CSV: Agente Autônomo para Análise de Dados
+# DataPilot CSV: Agente Autônomo para Análise de Dados
 
 Este projeto apresenta um aplicativo web construído com Streamlit que utiliza um Agente de IA Autônomo (LangChain + Google Gemini) para realizar Análise Exploratória de Dados (EDA) de forma conversacional. O Agente é capaz de processar arquivos CSV, executar código Python em tempo real, gerar gráficos e fornecer conclusões estruturadas sobre os dados.
 
-Funcionalidades Principais
+# Funcionalidades Principais
 Agente ReAct Inteligente: Utiliza a arquitetura ReAct para raciocinar, planejar as ações e executar código Python de forma autônoma.
 
 EDA Conversacional: Faça perguntas em linguagem natural sobre o seu CSV (ex:"Quais são as medidas de tendência central (média, mediana)?").
@@ -15,7 +15,7 @@ Memória: O agente mantém o histórico da conversa, permitindo análises encade
 
 Necessário para o método df.to_markdown() (visualização da tabela).
 
-Configuração e Execução Local
+# Configuração e Execução Local
 1. Pré-requisitos
 Certifique-se de ter o Python (3.9+) e o Git instalados em seu sistema.
 
