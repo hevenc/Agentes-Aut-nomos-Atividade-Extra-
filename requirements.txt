@@ -21,3 +21,6 @@ langchain-experimental
 
 python-dotenv
 
+tabulate
+
+
