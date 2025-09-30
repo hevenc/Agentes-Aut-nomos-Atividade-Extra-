@@ -22,7 +22,7 @@ Certifique-se de ter o Python (3.9+) e o Git instalados em seu sistema.
 2. Clonagem do Repositório
 Clone o projeto para sua máquina local:
 
-git clone [https://docs.github.com/pt/repositories/creating-and-managing-repositories/quickstart-for-repositories](https://docs.github.com/pt/repositories/creating-and-managing-repositories/quickstart-for-repositories)]
+git clone ([https://docs.github.com/pt/repositories/creating-and-managing-repositories/quickstart-for-repositories](https://docs.github.com/pt/repositories/creating-and-managing-repositories/quickstart-for-repositories))
 
 3. Instalação de Dependências
 Recomendamos sempre criar um ambiente virtual (venv) antes de instalar os pacotes:
