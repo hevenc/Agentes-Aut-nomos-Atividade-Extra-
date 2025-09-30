@@ -67,6 +67,6 @@ Use o painel de Deploy do Streamlit Cloud (ou similar).
 
 O sistema de deploy lerá o requirements.txt e instalará as dependências.
 
-CONFIGURAÇÃO DE SECRETO: Você deve configurar a chave de API na seção "Secrets" da plataforma. Adicione a variável no formato TOML:
+CONFIGURAÇÃO DE SEGRETO: Você deve configurar a chave de API na seção "Secrets" da plataforma. Adicione a variável no formato TOML:
 
 GOOGLE_API_KEY="SUA_CHAVE_SECRETA_AQUI"
