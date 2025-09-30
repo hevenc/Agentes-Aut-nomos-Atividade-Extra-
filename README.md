@@ -28,16 +28,16 @@ cd DataPilot-CSV
 3. Instalação de Dependências
 Recomendamos sempre criar um ambiente virtual (venv) antes de instalar os pacotes:
 
-# Cria o ambiente virtual
+Cria o ambiente virtual
 python -m venv venv
 
-# Ativa o ambiente virtual (Linux/macOS)
+Ativa o ambiente virtual (Linux/macOS)
 source venv/bin/activate 
 
-# Ativa o ambiente virtual (Windows)
+Ativa o ambiente virtual (Windows)
 .\venv\Scripts\activate 
 
-# Instala as dependências listadas no requirements.txt
+Instala as dependências listadas no requirements.txt
 pip install -r requirements.txt
 
 4. Configuração da Chave de API (Passo Crítico de Segurança)
@@ -48,7 +48,7 @@ Crie o arquivo .env: Na raiz do seu projeto (a mesma pasta onde está o main.py)
 
 Insira a Chave: Adicione sua chave neste arquivo no seguinte formato:
 
-# Conteúdo do arquivo .env
+Conteúdo do arquivo .env
 GOOGLE_API_KEY="SUA_CHAVE_SECRETA_COMPLETA_AQUI"
 
 O arquivo .gitignore deste projeto garante que o .env nunca seja enviado ao repositório público.
