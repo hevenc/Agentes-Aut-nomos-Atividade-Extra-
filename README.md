@@ -5,7 +5,7 @@ Este projeto apresenta um aplicativo web construído com Streamlit que utiliza u
 Funcionalidades Principais
 Agente ReAct Inteligente: Utiliza a arquitetura ReAct para raciocinar, planejar as ações e executar código Python de forma autônoma.
 
-EDA Conversacional: Faça perguntas em linguagem natural sobre o seu CSV (ex: Quais são as medidas de tendência central (média, mediana)? ").
+EDA Conversacional: Faça perguntas em linguagem natural sobre o seu CSV (ex:"Quais são as medidas de tendência central (média, mediana)?").
 
 Visualização Dinâmica: Geração e exibição de gráficos interativos (Plotly) e estáticos (Matplotlib) diretamente no Streamlit.
 
