@@ -197,8 +197,8 @@ class AgenteDataFrame:
             handle_parsing_errors=True,
             memory=self.__memory,
             verbose=True,  # Para ver o ReAct completo
-            max_iterations=25,
-            max_execution_time=60.0
+            max_iterations=100,
+            max_execution_time=300.0
         )
         # A memória é passada como parte do invoke, e o executor a gerencia
         resposta = executor.invoke({"input": pergunta})
@@ -304,6 +304,7 @@ with col2:
 
     elif user_input and st.session_state.df_upload is None:
         st.warning("⚠️ Por favor, envie um CSV em **Browse files**, antes de fazer perguntas.")
+
 
 
 
