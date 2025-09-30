@@ -2,7 +2,7 @@ DataPilot CSV: Agente Autônomo para Análise de Dados
 
 Este projeto apresenta um aplicativo web construído com Streamlit que utiliza um Agente de IA Autônomo (LangChain + Google Gemini) para realizar Análise Exploratória de Dados (EDA) de forma conversacional. O Agente é capaz de processar arquivos CSV, executar código Python em tempo real, gerar gráficos e fornecer conclusões estruturadas sobre os dados.
 
-✨ Funcionalidades Principais
+Funcionalidades Principais
 Agente ReAct Inteligente: Utiliza a arquitetura ReAct para raciocinar, planejar as ações e executar código Python de forma autônoma.
 
 EDA Conversacional: Faça perguntas em linguagem natural sobre o seu CSV (ex: Quais são as medidas de tendência central (média, mediana)? ").
@@ -13,56 +13,9 @@ Conclusões Estruturadas: Cada resposta do agente inclui uma seção clara de CO
 
 Memória: O agente mantém o histórico da conversa, permitindo análises encadeadas e refino de perguntas.
 
-⚙️ Tecnologias Utilizadas
-Componente
-
-Tecnologia
-
-Função
-
-Interface
-
-Streamlit
-
-Criação rápida e responsiva da aplicação web.
-
-Agente / LLM
-
-Google Gemini (via langchain-google-genai)
-
-Fornece a inteligência e o raciocínio central do agente.
-
-Framework de Agentes
-
-LangChain
-
-Construção do Agente ReAct, ferramentas e memória conversacional.
-
-Análise
-
-Pandas, NumPy
-
-Manipulação, limpeza e análise de DataFrames.
-
-Visualização
-
-Plotly, Matplotlib, Seaborn (indireto)
-
-Geração de gráficos complexos para exibição.
-
-Segurança
-
-python-dotenv
-
-Gerenciamento seguro da chave de API em ambiente local.
-
-Dependência Pandas
-
-tabulate
-
 Necessário para o método df.to_markdown() (visualização da tabela).
 
-🛠️ Configuração e Execução Local
+Configuração e Execução Local
 1. Pré-requisitos
 Certifique-se de ter o Python (3.9+) e o Git instalados em seu sistema.
 
@@ -98,7 +51,7 @@ Insira a Chave: Adicione sua chave neste arquivo no seguinte formato:
 # Conteúdo do arquivo .env
 GOOGLE_API_KEY="SUA_CHAVE_SECRETA_COMPLETA_AQUI"
 
-🔔 O arquivo .gitignore deste projeto garante que o .env nunca seja enviado ao repositório público.
+O arquivo .gitignore deste projeto garante que o .env nunca seja enviado ao repositório público.
 
 5. Execução do Aplicativo
 Com o ambiente ativado e a chave configurada, execute a aplicação Streamlit:
@@ -107,7 +60,7 @@ streamlit run main.py
 
 O aplicativo será aberto automaticamente no seu navegador, geralmente em http://localhost:8501/.
 
-☁️ Deploy no Streamlit Cloud
+Deploy no Streamlit Cloud
 Para implantar este aplicativo na nuvem:
 
 Use o painel de Deploy do Streamlit Cloud (ou similar).
