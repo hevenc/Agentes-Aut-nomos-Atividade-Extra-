@@ -59,7 +59,7 @@ streamlit run main.py
 
 O aplicativo será aberto automaticamente no seu navegador, geralmente em http://localhost:8501/.
 
-Deploy no Streamlit Cloud
+# Deploy no Streamlit Cloud
 Para implantar este aplicativo na nuvem:
 
 Use o painel de Deploy do Streamlit Cloud (ou similar).
