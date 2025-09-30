@@ -131,7 +131,7 @@ class AgenteDataFrame:
             Utilize esta ferramenta sempre que o usuário solicitar cálculos, consultas, transformações ou GERAÇÃO DE GRÁFICOS
             (histogramas, boxplots, dispersão, barras, etc.).
             Use Plotly Express (px) para gráficos interativos. Ex: `fig = px.histogram(df, x='coluna'); st.plotly_chart(fig)`.
-            Use Matplotlib (plt) para gráficos estáticos. Ex: `plt.figure(figsize=(10,5)); plt.hist(df['coluna']); st.pyplot()`.
+            Use Matplotlib (plt) para gráficos estáticos. Sempre use o formato seguro: Ex: `fig, ax = plt.subplots(figsize=(10,5)); ax.hist(df['coluna']); st.pyplot(fig)`.
             Retorne SEMPRE a resposta final em português após a análise.
             """
         )
@@ -304,6 +304,7 @@ with col2:
 
     elif user_input and st.session_state.df_upload is None:
         st.warning("⚠️ Por favor, envie um CSV em **Browse files**, antes de fazer perguntas.")
+
 
 
 
